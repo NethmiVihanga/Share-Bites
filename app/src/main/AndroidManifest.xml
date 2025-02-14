@@ -12,15 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareBites"
         tools:targetApi="31">
+
+        <!-- Main Activity -->
         <activity
-            android:name=".MainActivity"
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Login Activity -->
+        <activity android:name=".login" />
+
+        <!-- Sign Up Activity -->
+        <activity android:name=".sign_up" />
+
+        <!-- Food List Activity -->
+        <activity android:name=".food_list" />
+
+        <!-- Donate Food Activity -->
+        <activity android:name=".DonateFoodActivity" />
+
     </application>
 
 </manifest>

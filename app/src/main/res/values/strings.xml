@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Share Bites</string>
+    <!-- Array for units -->
+    <string-array name="units">
+        <item>kg</item>
+        <item>g</item>
+        <item>lbs</item>
+        <item>oz</item>
+        <item>liters</item>
+        <item>ml</item>
+        <item>cups</item>
+    </string-array>
+    <string name="rice">Rice Curry</string>
 </resources>
